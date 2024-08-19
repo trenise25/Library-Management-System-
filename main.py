@@ -30,7 +30,8 @@ def display_records():
         tree.insert('', END, values=records)
 
 def clear_fields():
-    # Clear all entry fields and reset the status to 'Available'
+    # Clear all entry fields and reset the status to 'Availabe'
+    
     bk_status.set('Available')
     bk_id.set('')
     bk_name.set('')
